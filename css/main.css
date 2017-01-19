@@ -1,0 +1,77 @@
+.thermometer {
+	position: relative;
+	margin: auto;
+	width: 52px;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.scale-red {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto; 
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	height: 0px;
+	width: 24px;
+	background-color: #cc0000;
+	z-index: 10;
+}
+
+.scale-white {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto; 
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 300px;
+	width: 24px;
+	background-color: #e6e6e6;
+	z-index: 20;
+}
+
+.base {
+	position: relative;
+	border: 1px solid black;
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -3px;
+	width: 50px;
+	height: 50px;
+	background-color: #cc0000;
+	z-index: 1;
+}
+
+.numbers {
+	position: relative;
+	font-size: .8em;
+	margin-top: 3px; 
+	top: 0;
+	right: 0;
+	float: right;
+	z-index: 10;
+}
+
+.numbers li {
+	list-style: none;
+	height: 40px;
+}
+
+.container {
+	font-family: roboto;
+	position: absolute;
+	height: 400px;
+	width: 300px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	text-align: center;
+}
